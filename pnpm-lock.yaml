@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   valaxy: 0.9.3
-  valaxy-theme-yun: 0.9.3
+  valaxy-theme-yun: ^0.9.3
 
 dependencies:
   valaxy: 0.9.3
