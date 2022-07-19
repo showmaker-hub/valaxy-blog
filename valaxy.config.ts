@@ -8,16 +8,16 @@ export default defineConfig<ThemeConfig>({
   lang: 'zh-CN',
   title: 'Valaxy Theme Yun',
   author: {
-    name: '云游君',
+    name: '初意',
   },
   description: 'Valaxy Theme Yun Preview.',
   social: [
-    {
-      name: 'RSS',
-      link: '/atom.xml',
-      icon: 'i-ri-rss-line',
-      color: 'orange',
-    },
+    // {
+    //   name: 'RSS',
+    //   link: '/atom.xml',
+    //   icon: 'i-ri-rss-line',
+    //   color: 'orange',
+    // },
     {
       name: 'QQ 群 1050458482',
       link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
@@ -102,19 +102,19 @@ export default defineConfig<ThemeConfig>({
     methods: [
       {
         name: '支付宝',
-        url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
+        url: 'https://cdn.jsdelivr.net/gh/showmaker-hub/cdn@main/alipay-qrcode.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: 'QQ 支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png',
+        url: 'https://cdn.jsdelivr.net/gh/showmaker-hub/cdn@main/qqpay-qrcode.png',
         color: '#12B7F5',
         icon: 'i-ri-qq-line',
       },
       {
         name: '微信支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg',
+        url: 'https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpghttps://cdn.jsdelivr.net/gh/showmaker-hub/cdn@main/wechatpay-qrcode.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
